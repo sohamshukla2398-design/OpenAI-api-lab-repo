@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-client = genai.Client("YOUR_API_KEY")
+client = genai.Client()
 
 print("Sending request to Gemini...")
 
